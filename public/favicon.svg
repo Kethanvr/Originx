@@ -1,0 +1,30 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with saffron gradient -->
+  <defs>
+    <linearGradient id="saffronGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d2470a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="terracottaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec7643;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#de5d2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="16" cy="16" r="15" fill="url(#saffronGradient)" stroke="#d2470a" stroke-width="1"/>
+  
+  <!-- Stylized "O" for OriginX -->
+  <path d="M12 8C9.79086 8 8 9.79086 8 12V20C8 22.2091 9.79086 24 12 24H20C22.2091 24 24 22.2091 24 20V12C24 9.79086 22.2091 8 20 8H12Z" fill="url(#terracottaGradient)"/>
+  
+  <!-- Inner circle representing heritage/hub -->
+  <circle cx="16" cy="16" r="6" fill="white" opacity="0.9"/>
+  
+  <!-- Small decorative elements representing cultural heritage -->
+  <circle cx="13" cy="13" r="1" fill="#ea580c"/>
+  <circle cx="19" cy="13" r="1" fill="#ea580c"/>
+  <circle cx="16" cy="19" r="1" fill="#ea580c"/>
+  
+  <!-- Center dot representing the core/authenticity -->
+  <circle cx="16" cy="16" r="1.5" fill="#d2470a"/>
+</svg> 
