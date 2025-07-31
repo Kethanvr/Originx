@@ -53,11 +53,6 @@
       "destination": "/index.html"
     }
   ],
-  "functions": {
-    "src/**/*.tsx": {
-      "maxDuration": 10
-    }
-  },
   "env": {
     "NODE_ENV": "production"
   }
